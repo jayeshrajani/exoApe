@@ -40,7 +40,7 @@ function Images() {
     });
 
     gsap.to(second.current, {
-      y: "40%",
+      y: "60%",
       ease: "linear",
       scrollTrigger: {
         trigger: third.current,
@@ -70,7 +70,7 @@ function Images() {
       className="w-full h-[50vh] sm:h-[80vh] bg-zinc-100 relative"
     >
       
-      <div className="centre-img top-1/2 left-1/2 absolute w-36 -translate-x-1/2 -translate-y-1/2 sm:w-96 sm:mt-20">
+      <div className="centre-img top-1/2 left-1/2 absolute w-50 mt-10 -translate-x-1/2 -translate-y-1/2 sm:w-96 sm:mt-20">
         <img
           src="https://a.storyblok.com/f/133769/748x1278/5784aa7150/home-news-1.jpg/m/1200x2050/filters:quality(90)"
           alt=""
@@ -80,7 +80,7 @@ function Images() {
       
       <div
         ref={first}
-        className="absolute w-32 aspect-video top-30 sm:top-40 left-15 sm:left-80 sm:w-72"
+        className="absolute w-32 aspect-video top-30 sm:top-40 right-70  sm:left-50 sm:w-72"
       >
         <video
           autoPlay
@@ -92,7 +92,7 @@ function Images() {
       </div>
 
       <div ref={second}
-      className="absolute w-20 h-28 sm:w-60 sm:h-72 top-30 right-15 sm:right-90">
+      className="absolute w-20 h-28 sm:w-60 sm:h-72 top-10 right-15 sm:right-90">
         <img
           className="w-full h-full object-scale-up object-center"
           src="https://plus.unsplash.com/premium_photo-1737659254856-bb79e14b3ea5?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
